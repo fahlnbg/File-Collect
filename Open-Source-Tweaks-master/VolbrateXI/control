@@ -1,0 +1,9 @@
+Package: com.lacertosusrepo.volbratexi
+Name: VolbrateXI
+Depends: mobilesubstrate
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: Add a little feedback to volume buttons...
+Maintainer: Lacertosus
+Author: Lacertosus
+Section: Tweaks
