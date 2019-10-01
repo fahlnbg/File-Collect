@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>alpha</key>
+			<false/>
+			<key>cellClass</key>
+			<string>CSColorDisplayCell</string>
+			<key>defaults</key>
+			<string>com.qiop1379.dockoutlineprefs</string>
+			<key>defaultsPath</key>
+			<string>/Library/PreferenceBundles/DockOutlinePrefs.bundle</string>
+			<key>fallback</key>
+			<string>ffffff</string>
+			<key>key</key>
+			<string>outlineColor</string>
+			<key>label</key>
+			<string>Outline color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Change the outline size on the dock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>2</real>
+			<key>defaults</key>
+			<string>com.qiop1379.dockoutlineprefs</string>
+			<key>key</key>
+			<string>outlineWidth</string>
+			<key>isSegmented</key>
+			<true/>
+			<key>segmentCount</key>
+			<real>4</real>
+			<key>max</key>
+			<real>5</real>
+			<key>min</key>
+			<real>1</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Change the corner radius on the outline</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>32</real>
+			<key>defaults</key>
+			<string>com.qiop1379.dockoutlineprefs</string>
+			<key>key</key>
+			<string>outlineRadius</string>
+			<key>isSegmented</key>
+			<true/>
+			<key>segmentCount</key>
+			<real>50</real>
+			<key>max</key>
+			<real>50</real>
+			<key>min</key>
+			<real>0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Apply</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>DockOutline</string>
+</dict>
+</plist>
