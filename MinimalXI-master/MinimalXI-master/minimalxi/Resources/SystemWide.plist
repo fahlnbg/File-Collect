@@ -1,0 +1,74 @@
+{
+	title =  "MinimalXI";
+	entry = {
+		cell = PSLinkCell;
+	};
+	items = (
+		{
+			cell = PSGroupCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			label = "Home Screen | Folder";
+		},
+		{
+			cell = PSSwitchCell;
+			default = false;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "hideFolderBg";
+			label = "Hide Folder Background";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSSwitchCell;
+			default = false;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "hideFolderBlur";
+			label = "Hide Folder Blurry Background";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSSwitchCell;
+			default = false;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "hideFolderIcon";
+			label = "Hide Folder Icon";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSSwitchCell;
+			default = false;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "showNameBg";
+			label = "Show Folder Name Background";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSGroupCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			label = "Home Screen | App Icons";
+		},
+		{
+			cell = PSSwitchCell;
+			default = true;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "hideIconLabels";
+			label = "Hide Icon Labels";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSSwitchCell;
+			default = true;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "hideUpdatedDot";
+			label = "Hide Blue Updated Dot";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSSwitchCell;
+			default = false;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "hideDockBackground";
+			label = "Hide Dock Background";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+	);
+}

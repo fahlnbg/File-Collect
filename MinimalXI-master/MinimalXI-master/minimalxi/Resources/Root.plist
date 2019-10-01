@@ -1,0 +1,111 @@
+{
+	title =  "MinimalXI";
+	entry = {
+		cell = PSLinkCell;
+	};
+	items = (
+		{
+		cellClass = "HBImageTableCell";
+		height = 150;
+		icon = "logo.png";
+		},
+		{
+			cell = PSGroupCell;
+			label = "";
+		},
+		{
+			cellClass = "HBTwitterCell";
+			label = "R0wDrunner";
+			user = "r0wdrunner";
+		},
+		{
+			cellClass = "HBLinkTableCell";
+			url = "https://github.com/R0wDrunner/MinimalXI";
+			label = "Source Code";
+			subtitle = "You want to see my Code? Here it is!";
+		},
+		{
+			cell = PSSwitchCell;
+			default = true;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "tweakEnabled";
+			label = "Enabled";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSGroupCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			label = "Miscellaneous";
+			footerText = "";
+		},
+		{
+			cell = PSSwitchCell;
+			default = true;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "hideSeparators";
+			label = "Hide Separators";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSSwitchCell;
+			default = true;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "noLargeTitles";
+			label = "No Large Titles";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSSwitchCell;
+			default = false;
+			defaults = "com.r0wdrunner.minimalxi";
+			key = "hideSearchBackground";
+			label = "Hide Search Background";
+			PostNotification = "com.r0wdrunner.minimalxi-prefsreload";
+		},
+		{
+			cell = PSGroupCell;
+			defaults = "com.r0wdrunner.minimalxi";
+		},
+		{
+			cell = PSLinkCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			label = "System Wide";
+			detail = "SystemWide";
+		},
+		{
+			cell = PSGroupCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			label = "App Tweaking";
+		},
+		{
+			cell = PSLinkCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			label = "Settings";
+			detail = "IOSConceptStyle";
+		},
+		{
+			cell = PSLinkCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			label = "Safari";
+			detail = "Safari";
+		},
+		{
+			cell = PSGroupCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			label = "";
+			footerText = "Settings should take over without a respring, but if anything does not, use the respring button.";
+		},
+		{
+			cell = PSButtonCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			action = respring;
+			label = "Respring";
+		},
+		{
+			cell = PSGroupCell;
+			defaults = "com.r0wdrunner.minimalxi";
+			footerAlignment =  1;
+			footerText = "R0wDrunner\nCatch Me If You Can";
+		},
+	);
+}
