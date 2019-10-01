@@ -1,0 +1,10 @@
+Package: com.idevicehacked.sampleprefs
+Name: SamplePrefs
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: LucifersCircle
+Author: LucifersCircle
+Section: Tweaks
+Version: 0.0.1-3+debug
+Installed-Size: 316
